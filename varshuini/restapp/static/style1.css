@@ -1,0 +1,51 @@
+body{
+    background-image:url("Screenshot 2025-10-07 111250.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    justify-content:space-between;
+    justify-content:space-between;
+    display:flex;
+}
+.heading{
+    position:fixed;
+    top:0;
+    font-family:'cambria','sans-serif','calibri','serif';
+    margin-left:5px;
+    font-size:50px;
+    font-weight:bolder;
+    color: black;
+
+}
+.slogan{
+     position:absolute;
+     bottom:75%;
+     margin-left: 5px;
+     font-family:'cambria','sans-serif','calibri';
+     font-weight:bolder;
+     font-size:xx-large;
+     color:rgb(6, 5, 5);
+}
+.hyperl{
+    position:fixed;
+    top:0;
+    @media(any-hover: hover){
+        a:hover{
+            background-color:rgb(6, 5, 5);
+        }
+    }
+    margin-top:40px;
+    margin-left:1055px;
+    margin-right:50px;
+    font-family: 'cambria','serif','calibri';
+    font-size:22px;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
